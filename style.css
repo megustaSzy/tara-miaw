@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #e94d58;
+    margin-bottom: 20px;
+}
+
+img.gif {
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 30px auto;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #e94d58;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.yes-btn {
+    background-color: #e94d58;
+}
+
+.no-btn {
+    background-color: white;
+    color: #e94d58;
+}
+
+.no-btn:hover {
+    background-color: #e94d58;
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: white;
+    color: #e94d58;
+}
